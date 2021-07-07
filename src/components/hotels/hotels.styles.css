@@ -1,0 +1,106 @@
+.hotelCard {
+  width: 20rem;
+  height: auto;
+  border: solid 1px gray;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotelimg {
+  width: 100%;
+}
+
+.description {
+  padding: 1rem;
+}
+
+.HotelName {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.HotelDescription {
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.location {
+  background-color: lightgrey;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  width: 13rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  gap: 5px;
+}
+
+.place {
+  color: white;
+  background-color: #1e90ff;
+  height: 1.5rem;
+  font-size: 14px;
+}
+
+.svg-inline--fa.fa-w-12 {
+  width: 1.5rem;
+  padding: 0.2rem;
+}
+
+.Otros {
+  display: flex;
+  height: 2.5rem;
+}
+
+.Rooms {
+  background-color: lightgrey;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  width: 10rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  gap: 5px;
+}
+
+.beds {
+  color: white;
+  background-color: #1e90ff;
+  height: 1.3rem;
+}
+
+.svg-inline--fa.fa-w-20 {
+  width: 1.5em;
+  height: 1.5rem;
+  padding: 0.2rem;
+}
+
+.price {
+  text-align: center;
+  font-size: 14px;
+  width: 4rem;
+  height: 1.3rem;
+  border: none;
+  border-radius: 8px;
+  margin-left: 6px;
+  background-color: #1e90ff;
+  color: white;
+  padding-top: 3px;
+}
+
+.price span {
+  opacity: 0.5;
+}
+
+.book {
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+  background-color: #66cdaa;
+  border: solid 1px gray;
+  border-top: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}

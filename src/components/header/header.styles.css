@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.Header {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 4rem 5rem 3rem 5rem;
+  margin-bottom: -1rem;
+}
+
+.Header_Title {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: Montserrat;
+}
+
+.Header_filter_text {
+  font-weight: lighter;
+  height: auto;
+}

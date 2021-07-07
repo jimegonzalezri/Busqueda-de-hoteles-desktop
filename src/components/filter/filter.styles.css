@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.AllFilters {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #007acc;
+  height: auto;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+input {
+  height: auto;
+  border-radius: 5px;
+  border: 3px solid darkblue;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+select {
+  border-radius: 5px;
+  border: 3px solid darkblue;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.reset {
+  width: 5rem;
+  background-color: #eee8aa;
+  border: white 1px solid;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-family: cursive;
+  box-shadow: 20px 5px 40px #cf77f3, 0px 5px 40px #009bff,
+    -20px 5px 40px #2ac9db;
+  background-image: linear-gradient(
+    -90deg,
+    #cf77f3 0%,
+    #009bff 47%,
+    #2ac9db 100%
+  );
+}

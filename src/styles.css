@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Montserrat;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 5rem;
+  gap: 1rem;
+}
